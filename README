@@ -1,4 +1,13 @@
-A multiplayer Sudoku game implemented with PodSixNet
+env python 2.7
+A two players Sudoku game implemented with PodSixNet
 launch 2 SudokuClient.py and 1 SudokuServer.py to start playing 
 
-env python 2.7
+rules:
+The first player to click Go button starts the game. 
+Each player take turns to fill in empty grid until all grids are filled out.   
+Each turn have 30 seconds, the time that is unused will be added to the mark.   
+(the faster one fills the grid the higher the reward)     
+
+The player with the higher mark in the end wins the game.    
+
+
