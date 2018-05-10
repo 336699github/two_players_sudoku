@@ -1,0 +1,4 @@
+A multiplayer Sudoku game implemented with PodSixNet
+launch 2 SudokuClient.py and 1 SudokuServer.py to start playing 
+
+env python 2.7
